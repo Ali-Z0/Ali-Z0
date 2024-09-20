@@ -39,7 +39,7 @@ Welcome to my GitHub! I'm currently pursuing a **Bachelor's degree in Embedded S
 
 ### 🚀 Projects
 
-- **Miniaturized Flight Recorder** *(Award-Winning Project)*  
+- **Miniaturized Flight Recorder** *(Award-Winning Project 🏆)*  
   Developed a **flight data recorder** that collects and stores data on aircraft movement using an **inertial center** and **GPS/GNSS positioning system**. Received the **Best Diploma Work Award** with a top grade of 6 for this project.
 
 - **Underwater Localization System**  
