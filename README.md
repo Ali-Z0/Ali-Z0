@@ -39,17 +39,35 @@ Welcome to my GitHub! I'm currently pursuing a **Bachelor's degree in Embedded S
 
 ### 🚀 Projects
 
-- **Miniaturized Flight Recorder** *(Award-Winning Project 🏆)*  
-  Developed a **flight data recorder** that collects and stores data on aircraft movement using an **inertial center** and **GPS/GNSS positioning system**. Received the **Best Diploma Work Award** with a top grade of 6 for this project.
+#### ♟️ [ChessAnywhere — Smart Chessboard](https://github.com/GianniCecchetto/ChessAnywhere)
+An end-to-end connected chessboard: custom **PCB**, **STM32** firmware, and a **PC/host library** for real-time piece detection and LED guidance.  
 
-- **Underwater Localization System**  
-  Developed a system that captures displacement data from an underwater module using an inertial center, aiming to localize it mathematically due to communication challenges underwater.
+- 🔧 **Hardware:** 8×8 reed-switch matrix with protection diodes, WS2812B RGB LEDs per square, **STM32G030F6P6**, clean power design.  
+- 💻 **Firmware (C, HAL):** TIM17 PWM+DMA LED driver, UART FIFO, lightweight **ASCII protocol** (formatters/parsers) for moves & events, self-tests.  
+- 🖥️ **Host tools:** C/Python libraries to **parse/format** commands and stream board events (LED control, switch/reed events, tests).  
+- ✨ **Features:** Move hints, animations, per-square status, fast scanning, CI-ready structure.  
+- ⚡ **Tech highlights:** DMA-driven LED timing, 32 MHz PLL, compact protocol, portable host API.  
 
-- **Calibration Station for Watchmakers’ Torque Screwdrivers**  
-  Created a device for measuring torque using a Wheatstone bridge, including firmware development, data processing, and value display.
+---
 
-- **RC Airship**  
-  Collaboratively developed an RC-controlled airship, handling the **electronic design** and programming of a **CPLD (Complex Programmable Logic Device)**.
+#### 🛩️ [Miniaturized Flight Recorder](https://github.com/Ali-Z0/1924B_Miniaturized-Flight-Recorder) *(Award-Winning Project 🏆)*
+Developed a **flight data recorder** that collects and stores data on aircraft movement using an **inertial center** and **GPS/GNSS positioning system**.  
+🏅 Received the **Best Diploma Work Award** with a top grade of 6.
+
+---
+
+#### 🌊 [Underwater Localization System](https://github.com/Ali-Z0/2221_Underwater-Positioning-System)
+Developed a system that captures displacement data from an underwater module using an inertial center, aiming to localize it mathematically due to communication challenges underwater.
+
+---
+
+#### ⚙️ Calibration Station for Watchmakers’ Torque Screwdrivers
+Created a device for measuring torque using a Wheatstone bridge, including firmware development, data processing, and value display.
+
+---
+
+#### 🎈 RC Airship
+Collaboratively developed an RC-controlled airship, handling the **electronic design** and programming of a **CPLD (Complex Programmable Logic Device)**.
 
 ---
 
